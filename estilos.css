@@ -1,0 +1,376 @@
+h1 {
+background-color: brown;
+font-size: larger;
+margin-left: 70px;
+margin-top: 5000px;
+}
+
+h3 {
+    font-size: larger;
+    margin-left: 7px;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/**Elementos de parte Superior**/ 
+.imagen {
+    width: 200px; 
+    height: 100px;
+}
+
+.cuadroarriba {
+    position:absolute;
+    background-color: #1e88e5;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
+    background:url(/LOGO/VE.png);
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 20px; 
+}
+
+.lupabusqueda{
+    position: relative;
+    font-size: 32px;
+    margin-top: 35px; 
+    margin-left: 80%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius:50%;
+}
+/**BOTONES de navegacion**/ 
+.botones{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 5px 5px 15px gray;
+    gap: 20px;
+}
+
+.barra {
+    position: relative;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    }
+      
+a:hover {
+    color: #e0e0e0;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/**Contenedor de titulos**/    
+.contenedor_titulos {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    padding-left: 53px;
+    gap: 320px;
+}
+/**Titulos**/    
+.noticias,
+.anuncios,
+.galeria_imagenes {
+    position: static;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: rgb(201, 204, 206) 3px 3px 3px;
+    color: #000000;
+}
+/**Contenedor cuerpo de pagina**/  
+.cuerpocontenedor {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: auto;
+}
+/**Contenedor Columna 1**/  
+.contenedordenoticias {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 400px;
+    margin-left: 40px;
+}
+
+.contenedor_noticias1 {
+    width: 380px;
+    height: 200px;
+    background-color: #1e88e5;
+    margin-bottom: 20px;
+}
+
+.contenedor_noticias2{
+    width: 380px;
+    height: 200px;
+    background-color: #1e88e5;
+    
+}
+
+/**Contenedor Columna 2**/  
+.contenedor_anuncios1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+    background-color: #000000;
+}
+.contenedor_publicidad1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top:20px;
+    background-color: transparent;
+}
+.paseo_empalme{
+    width: 350px;
+    height: 130px;
+    align-self: center;
+    background-size: cover;
+    transition:all .5s ease-in-out;
+}
+
+.paseo_empalme:hover {
+    background-size: cover;
+    background-color: rgb(93, 18, 140);
+}
+/**Contenedor Columna 3**/  
+.contenedor_carousel {
+    position: relative;
+    margin-left: 20px;
+    width: 380px;
+    height: 200px;
+    border: #000000 solid 1px;
+}
+
+.contenedor_publicidad2{
+    display: flex;
+    justify-content: center;
+    width: 380px;
+    height: 184px;
+    margin-top:15px;
+    background-color:aliceblue;
+
+}
+/**Textos Columnas**/  
+.textonoticias1,
+.textonoticias2 {
+    font-size:medium;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    padding: 10px;
+    color: #e0e0e0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textoanuncios{
+    font-size:medium;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    padding: 10px;
+    color: #03a9f4;
+    font-family:sans-serif;
+}
+/**Boton leer noticia**/  
+.leer_noticia{
+    margin-left: 270px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 30px;
+    font-size:12px;
+    font-style: italic;
+    border-color: transparent;
+    border-style: solid;
+    border-radius:5px;
+}
+
+.leer_noticia:hover {
+    color: #e0e0e0;
+    background-color: #000000 ;
+    text-decoration: underline;
+}
+/**Barra de contacto**/ 
+.barracontacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    border: #000000 thick 1px;
+    background-color: #2298cf;
+    gap: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px ;
+    box-shadow: 5px 5px 15px gray
+    
+}
+/**Iconos de contacto**/ 
+.icono_wapps {
+    width: 45px;
+    height: 45px;
+    font-size: 35px;
+    padding-top: 4px;
+    padding-left: 4px;
+    color: #25D366;
+    border: #ffffff solid 1px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
+.icono_telefono{
+    width: 45px;
+    height: 45px;
+    font-size: 33px;
+    padding-top: 6px;
+    padding-left: 3px;
+    color: #000000;
+    border: #ffffff solid 1px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.icono_wapps:link {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    }
+      
+.icono_wapps:hover {
+    color: #ffffff;
+    background-color: #128C7E;
+    transition:all .2s ease-in-out;
+}
+
+.icono_telefono:link {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    }
+      
+.icono_telefono:hover {
+    color: #ffffff;
+    background-color: #1e88e5;
+    transition:all .2s ease-in-out;
+}
+
+.consultenos {
+    font-size: medium;
+    color:#ffffff;
+}
+/**Contenedor Pie de pagina**/ 
+.contenedor_pie{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000000;
+    width: auto;
+    height: 220px;
+    
+}
+/**Direccion**/ 
+.direccion {
+    width: auto;
+    height: 180px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+.texto_direccion1,
+.texto_direccion3 {
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #e0e0e0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto_direccion2,
+.texto_direccion4 {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #0033FF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/**Horario**/ 
+.horarios {
+    width: auto;
+    height: 180px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+
+.texto_horarios1 {
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #e0e0e0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto_horarios2 {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #0033FF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/**Redes**/ 
+.redes {
+    display: flex;
+    text-align: center;
+    font-size: large;
+    color: #e0e0e0;
+    width: auto;
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.facebook:link {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    }
+      
+.facebook:hover {
+    color: #ffffff;
+    background-color: #4267B2;
+    border-radius: 30px;
+    transition:all .2s ease-in-out;
+}
+
+.facebook {
+    font-size: 60px;
+    color: #ffffff;
+
+}
