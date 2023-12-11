@@ -68,8 +68,8 @@ h3 {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 45px;
-    gap: 500px;
+    height: auto;
+    gap: 400px;
 }
 
 .salud,
@@ -88,17 +88,17 @@ h3 {
     flex-direction: row;
     justify-content: center ;
     width: auto;
-    height: 270px;
+    height: auto;
 }
 .contenedor_medicos {
     width: 550px;
-    height: 370px;
-    margin-left: 40px;
-    margin-right: 50px;
+    height: 270px;
+    margin-left: 30px;
+    margin-right: 40px;
 }
 
 .contenedor_estudios {
-    width: 550px;
+    width: auto;
     height: 230px;
     margin-right: 50px;
 }
@@ -147,7 +147,7 @@ h3 {
 .dia{
     text-align:start;
     border:#b9b9b9 solid .3px;
-    width: 500px;
+    width: auto;
     height: auto;
     color: #000000;
     font-size: 13px;
@@ -299,8 +299,7 @@ h3 {
     padding-right: 20px;
     background-color: #000000;
     width: auto;
-    height: 220px;
-    
+    height: auto;   
 }
 
 .direccion {

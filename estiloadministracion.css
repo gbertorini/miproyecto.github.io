@@ -1,18 +1,17 @@
 h1 {
-background-color: brown;
-font-size: larger;
-margin-left: 70px;
-margin-top: 5000px;
-}
-
-h3 {
+    background-color: brown;
     font-size: larger;
+    margin-left: 70px;
+    margin-top: 5000px;
+    }
+    
+h3 {
+    font-size: medium;
     margin-left: 7px;
     padding: 3px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/**Elementos de parte Superior**/ 
 .imagen {
     width: 200px; 
     height: 100px;
@@ -68,26 +67,25 @@ a:link {
     background-color: transparent;
     text-decoration: none;
     }
-      
+        
 a:hover {
     color: #e0e0e0;
     background-color: transparent;
     text-decoration: underline;
 }
-/**Contenedor de titulos**/    
+
+/**Encabezado de titulos**/    
 .contenedor_titulos {
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: auto;
     height: 40px;
     padding-left: 53px;
-    gap: 320px;
+    gap: 280px;
 }
-/**Titulos**/    
-.noticias,
-.anuncios,
-.galeria_imagenes {
+
+.titulo{
     position: static;
     width: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -95,129 +93,243 @@ a:hover {
     text-shadow: rgb(201, 204, 206) 3px 3px 3px;
     color: #000000;
 }
-/**Contenedor cuerpo de pagina**/  
+/**Cuerpo de contenedor**/    
 .cuerpocontenedor {
     display: flex;
     justify-content: center;
-    height: 450px;
+    height: 470px;
     width: auto;
+
 }
-/**Contenedor Columna 1**/  
-.contenedordenoticias {
+/**Contenedor columna 1 - Comision Directiva **/  
+.contenedorcomision {
     display: flex;
     flex-direction: column;
-    width: 380px;
+    width: 400px;
     height: 400px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
-.contenedor_noticias1 {
-    width: 380px;
+.tituloscomision,
+.titulos_jefes {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.contenedor_nombres {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 400px;
     height: 200px;
     background-color: #1e88e5;
-    margin-bottom: 20px;
-}
-
-.contenedor_noticias2{
-    width: 380px;
-    height: 200px;
-    background-color: #1e88e5;
-    
-}
-
-/**Contenedor Columna 2**/  
-.contenedor_anuncios1{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    height: 250px;
-    margin-left: 20px;
-    background-color: #000000;
-}
-.contenedor_publicidad1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 130px;
-    margin-left: 20px;
-    margin-top:20px;
-    background-color: transparent;
-}
-.paseo_empalme{
-    width: 350px;
-    height: 130px;
-    align-self: center;
-    background-size: cover;
-    transition:all .5s ease-in-out;
-}
-
-.paseo_empalme:hover {
-    background-size: cover;
-    background-color: rgb(93, 18, 140);
-}
-/**Contenedor Columna 3**/  
-.contenedor_carousel {
-    position: relative;
-    margin-left: 20px;
-    width: 380px;
-    height: 200px;
     border: #000000 solid 1px;
 }
 
-.contenedor_publicidad2{
+.titulos_circulos{
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #ffffff;
+    text-align: start;
+}
+
+.contenedor_linea1,
+.contenedor_linea2,
+.contenedor_linea3,
+.contenedor_linea4 {
+
+    padding-top: 5px;
+    height: 200px;
+    width: auto;
+
+}
+
+.circulo_foto_pte{
+    width: 70px;
+    height: 70px;
+    border: #000000 solid 1px;
+    border-radius: 50px;
+    background-image: url(./caraprueba.png);
+    background-size: cover;
+}
+
+.circulo_foto_vice{
+    width: 70px;
+    height: 70px;
+    border: #000000 solid 1px;
+    border-radius: 50px;
+    background-image: url(./2.png);
+    background-size: cover;
+}
+
+.circulo_foto_teso{
+    width: 70px;
+    height: 70px;
+    border: #000000 solid 1px;
+    border-radius: 50px;
+    background-image: url(./3.png);
+    background-size: cover;
+}
+
+.circulo_foto_secre{
+    width: 70px;
+    height: 70px;
+    border: #000000 solid 1px;
+    border-radius: 50px;
+    background-image: url(./4.png);
+    background-size: cover;
+}
+
+.texto_jefes {
+    color: #ffffff;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #000000;
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+/**Contenedor columna 2 - DIALOGO - RECLAMOS **/  
+
+.contenedor_reclamos {
     display: flex;
-    justify-content: center;
-    width: 380px;
-    height: 184px;
-    margin-top:15px;
-    background-color:aliceblue;
+    flex-direction: row;
+    width: 360px;
+    height: 450px;
+    margin-left: 30px;
+}
+
+.contenedor_titulo_dialogos {
+    width: 330px;
+    height: 80px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+.texto1{
+    text-align: start;
+    font-size: 15px;
+    color: #000000;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.boton_dialogo{
+    width: 300px;
+    height: 50px;
+    border: #a5a5a5 solid 1px;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(177, 177, 177);
 
 }
-/**Textos Columnas**/  
-.textonoticias1,
-.textonoticias2 {
-    font-size:medium;
-    margin-left: 7px;
-    margin-bottom: 7px;
-    padding: 10px;
+.texto_dialogo{
+    color: #000000;
+    text-align: center;
+    font-style: bold;
+    transition:all .2s ease-in-out;
+    border-radius: 25px;
+
+}
+.texto_dialogo:hover{
+    background-color: rgb(39, 203, 58);
+    border-radius: 25px;
+    color: #ffffff;
+    border: #ffffff solid 1px;
+
+}
+
+.boton_reclamo{
+    width: 300px;
+    height: 50px;
+    border: #a5a5a5 solid 1px;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(177, 177, 177);
+}
+.texto_reclamo{
+    color: #000000;
+    text-align: center;
+    font-style: bold;
+    border-radius: 25px;
+    transition:all .2s ease-in-out;
+}
+.texto_reclamo:hover{
+    background-color: rgba(255, 0, 0, 0.817);
+    border-radius: 25px;
+    color: #ffffff;
+
+}
+
+.boton_correo{
+    width: 300px;
+    height: 26px;
+    border: #a5a5a5 solid 1px;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(177, 177, 177);
+}
+.texto_correo{
+    color: #000000;
+    text-align: center;
+    font-style: bold;
+    border-radius: 25px;
+    transition:all .2s ease-in-out;
+}
+.texto_correo:hover{
+    background-color: rgba(0, 115, 255, 0.959);
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.logo_grande{
+    width: 350px;
+    height: 90px;
+}
+
+/**Contenedor columna 3 - Datos Utiles**/  
+
+.contenedor_numeros{
+    width: auto;
+    margin-left: 40px;
+}
+
+.titulos_utiles{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 12px;
+    color: #000000;
+}
+
+.tabla_numeros{
+    background-color: #000000;
+    padding-left: 30px;
+    size-adjust: auto;
+    width: 300px;
+}
+.telefono,
+.nombre {
+    font-size: 15px;
+    padding-left: 3px;
     color: #e0e0e0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: #ffffff solid 1px;
+    gap: 20px;
+    width: 120px;
+
 }
 
-.textoanuncios{
-    font-size:medium;
-    margin-left: 7px;
-    margin-bottom: 7px;
-    padding: 10px;
-    color: #03a9f4;
-    font-family:sans-serif;
-}
-/**Boton leer noticia**/  
-.leer_noticia{
-    margin-left: 270px;
-    margin-bottom: 10px;
-    width: 90px;
-    height: 30px;
-    font-size:12px;
-    font-style: italic;
-    border-color: transparent;
-    border-style: solid;
-    border-radius:5px;
-}
-
-.leer_noticia:hover {
-    color: #e0e0e0;
-    background-color: #000000 ;
-    text-decoration: underline;
-}
 /**Barra de contacto**/ 
 .barracontacto {
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 70px;
+    height: 70px;  
     border: #000000 thick 1px;
     background-color: #2298cf;
     gap: 12px;
@@ -288,7 +400,7 @@ a:hover {
     padding-right: 20px;
     background-color: #000000;
     width: auto;
-    height: auto;
+    height: auto;   
     
 }
 /**Direccion**/ 
@@ -299,6 +411,16 @@ a:hover {
     margin-right: 40px;
     padding-top: 5px;
 }
+
+.horarios {
+    width: auto;
+    height: 180px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+
 .texto_direccion1,
 .texto_direccion3 {
     width: 300px;
@@ -319,15 +441,6 @@ a:hover {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /**Horario**/ 
-.horarios {
-    width: auto;
-    height: 180px;
-    margin-left: 40px;
-    margin-top: 50px;
-    margin-right: 40px;
-    padding-top: 5px;
-}
-
 .texto_horarios1 {
     width: 300px;
     height: 40px;

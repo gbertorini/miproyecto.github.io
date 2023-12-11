@@ -88,37 +88,14 @@ h3 {
     flex-direction: row;
     justify-content: center ;
     width: auto;
-    height: 270px;
+    height: 450px;
 }
 .contenedor_profesionales {
     width: 550px;
-    height: 450px;
+    height: 290px;
     margin-left: 40px;
     margin-right: 50px;
-    border: #000000 solid 3px;
 }
-
-
-.tablero_anuncios {
-    width: 550px;
-    height: 370px;
-    margin-right: 50px;
-    background-color:black ;
-}
-
-.texto_anuncios{
-    text-align:start;
-    width: 500px;
-    height: auto;
-    color: #e0e0e0;
-    font-size: 14px;
-    font-family: Verdana, sans-serif;
-    background-color: #000000;
-    text-indent: 15px;
-    padding-left: 15px;
-    padding-top: 10px;
-}
-
 
 .tabla_profesionales {
     display:flex;
@@ -156,6 +133,63 @@ h3 {
     text-indent: 5px;
 }
 
+.contenedor_bancos{
+    width: 610px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.texto_bancos{
+    text-align: start;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.fotos_orden{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 70px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos {
+    border: #ddd;
+    padding: 5px;
+    width: 90px;
+    border: #ffffff;
+  }
+
+.logos:hover{
+    opacity: 0.5;
+}
+
+.tablero_anuncios {
+    width: 550px;
+    height: 350px;
+    margin-right: 30px;
+    background-color:black ;
+}
+
+.texto_anuncios{
+    text-align:start;
+    width: 500px;
+    height: auto;
+    color: #e0e0e0;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    background-color: #000000;
+    text-indent: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
 .barracontacto {
     display: flex;
     justify-content: center;
@@ -168,7 +202,6 @@ h3 {
     justify-content: center;
     width: 500px;
     height: 70px;
-    border: #000000 thick 1px;
     background-color: #000000;
     gap: 12px;
     border-top-right-radius:50px;
